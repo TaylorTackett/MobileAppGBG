@@ -38,7 +38,6 @@
     <body>
         <div class="app">
             <h1>Apache Cordova</h1>
-            <h1>Hello</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
@@ -46,5 +45,18 @@
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <div id = "movement">
+            Click a button to move
+	</div>
+	<br/>
+	<button type = "button" onclick="move('Left')">Left</button>
+	<button type = "button" onclick="move('Forward')">Forward</button>
+        <button type = "button" onclick="move('Right')">Right</button>
+	<button type = "button" onclick="move('Backward')">Backward</button>
+        <script>
+            function move(direction) {
+		document.getElementById("movement").innerHTML = direction;
+            }
+        </script>
     </body>
 </html>
