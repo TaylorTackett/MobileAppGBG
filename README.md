@@ -1,5 +1,6 @@
 # MobileAppGBG
 
+- Please select the "Create a new branch for this commit and start a pull request. Learn more about pull requests." and NOT "Commit directly to master." We will always test/check our committed code in a different branch and not in the master, that way we can be sure it is ready to be pushed to master.
+
 - Please use the 'www' subfolder for development.
-- Please commit all changes to the 'dev_branch' and NOT directly to master. We will always test/check our committed code in the 'dev_branch' and once we can be sure it is ready to be pushed to master, we then can.
 - DO NOT commit any changes made (which should be none) outside of the 'www' subfolder.
