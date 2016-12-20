@@ -38,17 +38,18 @@
         <title>GBG Capstone</title>
     </head>
     <body>
+        <h1 style="margin-top:75px">GBG Mobile Application Prototype</h1>
         <div class="app">
-            <h1>GBG Mobile Application Prototype</h1>
-        	<hr/>
-            <div id="movement" style="padding-top: 10px">
+            <div style="padding-top: 10px; font-size: 16px">
                 Click a button to move
             </div>
-            <div id="btnGroup" style="margin-top: 50px">
-        	   <button type = "button" onclick="move('Left')">Left</button>
-        	   <button type = "button" onclick="move('Forward')">Forward</button>
-               <button type = "button" onclick="move('Right')">Right</button>
-        	   <button type = "button" onclick="move('Backward')">Backward</button>
+            <hr>
+            <div id="movement"></div>
+            <div style="margin-top: 35px;">
+        	   <button class="btnGroup" type = "button" onclick="move('Left')">Left</button>
+        	   <button class="btnGroup" type = "button" onclick="move('Forward')">Forward</button>
+               <button class="btnGroup" type = "button" onclick="move('Right')">Right</button>
+        	   <button class="btnGroup" type = "button" onclick="move('Backward')">Backward</button>
            </div>
         </div>
        <script>
